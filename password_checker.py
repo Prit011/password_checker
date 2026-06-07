@@ -15,9 +15,9 @@ def check_password(password):
     if strength <= 2:
         return "Weak ❌"
     elif strength == 3 or strength == 4:
-        return "Medium ⚠️"
+        return "Medium "
     else:
-        return "Strong ✅"
+        return "Strong "
 
 
 password = input("Enter your password: ")
